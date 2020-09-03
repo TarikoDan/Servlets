@@ -12,6 +12,9 @@
 </head>
 <body>
     <h3>this is ADD.jsp</h3>
+    <h4>Current server Time: <%=request.getAttribute("date")%></h4>
     <button onclick="location.href='/'">HOME</button>
+
 </body>
+
 </html>
